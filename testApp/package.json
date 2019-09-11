@@ -1,5 +1,5 @@
 {
-  "name": "hw2",
+  "name": "test-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod"
+    "postinstall": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -20,11 +20,12 @@
     "@angular/platform-browser": "~8.2.4",
     "@angular/platform-browser-dynamic": "~8.2.4",
     "@angular/router": "~8.2.4",
-    "express": "^4.17.1",
-    "path": "^0.12.7",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "typescript": "~3.5.3",
+    "@angular/cli": "~8.3.2",
+    "@angular/compiler-cli": "~8.2.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.2",
@@ -50,5 +51,6 @@
   "engines": {
     "node": "~12.9.1",
     "npm": "~6.10.2"
-  }  
+    }
+  
 }
