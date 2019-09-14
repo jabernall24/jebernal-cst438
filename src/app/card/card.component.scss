@@ -1,0 +1,70 @@
+$primaryColor: #013369;
+$white: rgb(250, 250, 250);
+
+.selling-card {
+    height: 80vh;
+    background: darken($color: $white, $amount: 5%);
+
+    mat-card-header {
+        width: 100%;
+        height: 10%;
+
+        .selling-card-header-image {
+            height: 100%;
+            width: 8vh;
+
+            img {
+                width: 100%;
+                border-radius: 50%;
+                max-width: 100%;
+                max-height: 100%;
+                top: 0; bottom: 0;
+                left: 0; right: 0;
+            }
+        }
+
+        mat-card-title {
+            font-weight: 900;
+            font-size: 2.0vw;
+        }
+
+        mat-card-subtitle {
+            font-weight: 250;
+            font-size: 1.0vw;
+        }
+    }
+
+    .selling-card-img-div {
+        width: 100%;
+        height: 65%;
+        text-align: center;
+
+        .selling-card-item-img {
+            width: 80%;
+            max-width: 80%;
+            max-height: 100%;
+            top: 0; bottom: 0;
+            left: 0; right: 0;
+            margin: 0 auto;
+        }
+    }
+
+    mat-card-content {
+        margin-top: 1%;
+        height: 15%;
+    }
+
+    mat-card-actions {
+        height: 10%;
+        text-align: center;
+
+        button {
+            background: $primaryColor;
+            color: $white;
+            width: 25%;
+            height: 50%;
+            font-size: 1.0vw;
+            border-radius: 10px;
+        }
+    }
+}
