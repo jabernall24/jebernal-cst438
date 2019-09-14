@@ -1,20 +1,22 @@
 
-<header>
-  <div class="container">
-    <div class="logo">
-      <img src="../assets/logo.png">
+<div class="mcontainer">
+    <div class="logo-container">
+        <img class="logo" src="../assets/logo.png">
     </div>
-    <div class="info">
-      <nav id="top-nav">
-        <ul>
-          <li> <a class="nav-item" href="#" routerLink="/">Home</a> </li>
-          <li> <a class="nav-item" href="#" routerLink="/products">Products</a> </li>
-          <li> <a class="nav-item" href="#" routerLink="/signin">Sign In</a> </li>
-        </ul>
-      </nav> 
+    <div class="navbar-container">
+        <nav class="right-top-navbar">
+            <ul>
+                <li> <a class="nav-item" href="#" routerLink="/signin">Sign In</a> </li>
+            </ul>
+        </nav>
+        <nav class="right-bottom-navbar">
+            <ul>
+                <li> <a class="nav-item" href="#" routerLink="/">Home</a> </li>
+                <li> <a class="nav-item" href="#" routerLink="/products">Products</a> </li>
+            </ul>
+        </nav>
     </div>
-  </div>
-</header>
+</div>
 
 <div class="container">
     <router-outlet></router-outlet>
