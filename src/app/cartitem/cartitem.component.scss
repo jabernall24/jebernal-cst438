@@ -1,0 +1,44 @@
+$white: rgb(250, 250, 250);
+
+.my-card {
+    display: flex;
+    background: darken($color: $white, $amount: 5%);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 220px;
+}
+
+.product-image-container .product-image {
+    height: 200px;
+    max-width: 200px;
+}
+
+.product-description {
+    height: 80%;
+    overflow: hidden;
+}
+
+.product-title {
+    // background: blue;
+    width: 80%;
+    display: inline-block;
+}
+
+.card-remove-product {
+    background: darken($color: $white, $amount: 10%);
+    border-radius: 50%;
+    &:hover {
+        cursor: pointer;
+        background: darken($color: $white, $amount: 20%);
+    }
+}
+
+/* Responsive layout - when the screen is less than 600px wide,
+ make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 1200px) {
+    .product-title {
+        // background: red;
+    }
+
+  }
