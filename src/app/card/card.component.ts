@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Product } from '../product';
 
 @Component({
   selector: 'app-card',
@@ -8,13 +7,16 @@ import { Product } from '../product';
 })
 export class CardComponent implements OnInit {
 
-  test: string = "logo.png";
-  // product: Product;
+  cardTextCount: Number = document.querySelectorAll('.card-text').length;
 
   constructor() { 
   }
 
   ngOnInit() {
+    
   }
-
+  
+  addProductToCart() {
+    console.log("Item has been added to cart")
+  }
 }

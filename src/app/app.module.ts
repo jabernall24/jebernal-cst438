@@ -14,8 +14,12 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SigninComponent } from './signin/signin.component';
 import { ProductsComponent } from './products/products.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
+import { CartComponent } from './cart/cart.component';
+import { CartitemComponent } from './cartitem/cartitem.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { OrderPlacedComponent } from './order-placed/order-placed.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +27,12 @@ import { CardComponent } from './card/card.component';
     HomeComponent,
     SigninComponent,
     ProductsComponent,
-    NavbarComponent,
-    CardComponent
+    CardComponent,
+    CartComponent,
+    CartitemComponent,
+    ProductDetailsComponent,
+    CheckoutComponent,
+    OrderPlacedComponent
   ],
   imports: [
     BrowserModule,
